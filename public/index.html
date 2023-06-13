@@ -1,7 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-  integrity="sha384-pzjw8f+ua6vNqZCg6Smvrrq+oW8vTGCGGV3rF1k0JbU/k1Hz4Cowb/rD+d9h7a8T"
-  crossorigin="anonymous"
-/>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume Builder</title>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-pzjw8f+ua6vNqZCg6Smvrrq+oW8vTGCGGV3rF1k0JbU/k1Hz4Cowb/rD+d9h7a8T"
+    crossorigin="anonymous"
+  />
+  <style>
+    body {
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group label {
+      font-weight: bold;
+    }
+    .form-group input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      font-size: 16px;
+    }
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+    .list-group-item {
+      border: none;
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/main.js"></script>
+</body>
+
+</html>
